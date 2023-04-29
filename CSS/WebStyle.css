@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+body{
+	position:relative;
+}
+
+.navbar{
+	position:relative;
+	display:flex;
+	align-items:center;
+	padding:20px;
+	
+}
+nav{
+	
+	flex:1;
+	text-align:right;
+	position:relative;
+	
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+	position:relative;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+	position:relative;
+}
+.container{
+	max-width:1300px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+	position:relative;
+	
+}
+.row{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	position:relative;
+}
+.col-2{
+	flex-basis:50%;
+	min-width:300px;
+	position:relative;
+}
+.col-2 img{
+	width:500px;
+	height:300;
+	padding:50px0;
+	position:relative;
+}
+
+.header {
+   position:relative;
+   text-align:center;
+   color:white;
+   background:blue;
+   padding:10px;
+   background:radial-gardinet(#fff,#ffd6d6);
+   
+}
+.description{
+	color:blue;
+}
+.description em{
+	color:white;
+}
+
+.div1{
+	
+position: relative;
+  left: 80px;
+    top: 70px;
+  font-weight:bold;
+  
+}
+.div2{
+
+	position: relative;
+  left: 330px;
+  top: -235px;
+   font-weight:bold; 
+   
+	
+}
+.div3{
+
+	position: relative;
+  left: 580px;
+  top: -540px;
+  font-weight:bold; 
+	
+}
+.div4{
+	
+	position: relative;
+  left: 830px;
+  top: -845px;
+  font-weight:bold; 
+	
+}
+.div5{
+	
+	position: relative;
+  left: 1080px;
+  top: -1150px;
+  font-weight:bold; 
+	
+}
+.div6{
+	
+position: relative;
+  left: 80px;
+    top: -1100px;
+  font-weight:bold;
+  
+}
+.div7{
+
+	position: relative;
+  left: 330px;
+  top: -1405px;
+   font-weight:bold; 
+	
+}
+.div8{
+
+	position: relative;
+  left: 580px;
+  top: -1710px;
+  font-weight:bold; 
+	
+}
+.div9{
+	
+	position: relative;
+  left: 830px;
+  top: -2015px;
+  font-weight:bold; 
+	
+}
+.div0{
+	
+	position: relative;
+  left: 1080px;
+  top: -2320px;
+  font-weight:bold; 
+	
+}
+#logButton{
+	
+	width:-50%;
+	background:#fff;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	
+	font-weight:bold;
+	color:black;
+	 left: 330px;
+}

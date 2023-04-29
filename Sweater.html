@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>www.outkos.com/Produktet/Duks pa kapuç</title>
+<link rel="stylesheet" href="CSS/ShirtPage.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Poppins';
+}
+</style>
+<script>
+jQuery(document).ready(($) => {
+    ('.quantity').on('click', '+', function(e) {
+        let input = $(this).prev('input.qty');
+        let val = parseInt($input.val());
+        input.val( val+1 ).change();
+    });
+
+    $('.quantity').on('click', '-', 
+        function(e) {
+        let input = (this).next('input.qty');
+        var val = parseInt($input.val());
+        if (val > 0) {
+            $input.val( val-1 ).change();
+        } 
+    });
+});
+</script>
+</head>
+<body>
+<div class="container">
+<div class="navbar">
+<div class="logo">
+<img src="Fotot/logo.png" width="125px">
+</div>
+<nav>
+<ul>
+<li>Home</li>
+<li>Produktet</li>
+<li>Për ne</li>
+<li>Na kontaktoni</li>
+<li>Përdoruesi</li>
+</ul>
+</nav>
+</div>
+<div class="Info">
+      <div class="image">
+        <img src="WebFoto/SweaterW.jpg" width="600px" height="500px">
+      </div>
+      <div class="text">
+        <h3>Duks pa kapuç<span style="color:white;">ysfbgfdbxcvxrc</span>
+
+        <br>
+        15.00$<br></h3>
+        <div class="masat">
+        <h4>Masat</h4>
+        <input type="button" name="log" id="log" value="S" data-inline="true">
+        <input type="button" name="log" id="log1" value="M" data-inline="true" data-theme="b">
+        <input type="button" name="log" id="log2" value="L" data-inline="true" data-theme="c">
+        <input type="button" name="log" id="log3" value="XL" data-inline="true" data-theme="c">
+           <input type="button" name="log" id="log4" value="Oversize" data-inline="true" data-theme="d">
+        </div>
+       <div class="space">
+       <p>dwbibhfbigibfsidbib<br>
+       dhsbs<br>
+       </p>
+       </div>
+        <p>Selekto ngjyren: <input type="color" name="ngjyra"></p>
+           <p>Sasia</p>
+               <div class="wrapper">
+    <span class="minus">-</span>
+    <span class="num">01</span>
+    <span class="plus">+</span>
+  </div>
+   <script>
+   const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
+    let a = 1;
+    plus.addEventListener("click", ()=>{
+      a++;
+      a = (a < 10) ? "0" + a : a;
+      num.innerText = a;
+    });
+
+    minus.addEventListener("click", ()=>{
+      if(a > 1){
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        num.innerText = a;
+      }
+    });
+
+  </script>
+    <div class="space2">
+    <p>rghnuhnwrnne</p>
+    </div>
+    
+    
+    <div class="log">
+<input type="button" name="log" id="logButton" value="Blej Tani" onclick="myFunction()">
+<br><br>
+</div>       
+</body>
+</html>
