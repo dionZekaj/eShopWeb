@@ -74,7 +74,7 @@ nav ul li{
 .div1{
 	
 position: relative;
-  left: 80px;
+  margin-left: 80px;
     top: 70px;
   font-weight:bold;
   
@@ -82,7 +82,7 @@ position: relative;
 .div2{
 
 	position: relative;
-  left: 330px;
+  margin-left: 330px;
   top: -235px;
    font-weight:bold; 
    
@@ -91,7 +91,7 @@ position: relative;
 .div3{
 
 	position: relative;
-  left: 580px;
+  margin-left: 580px;
   top: -540px;
   font-weight:bold; 
 	
@@ -99,7 +99,7 @@ position: relative;
 .div4{
 	
 	position: relative;
-  left: 830px;
+  margin-left: 830px;
   top: -845px;
   font-weight:bold; 
 	
@@ -107,7 +107,7 @@ position: relative;
 .div5{
 	
 	position: relative;
-  left: 1080px;
+  margin-left: 1080px;
   top: -1150px;
   font-weight:bold; 
 	
@@ -115,7 +115,7 @@ position: relative;
 .div6{
 	
 position: relative;
-  left: 80px;
+  margin-left: 80px;
     top: -1100px;
   font-weight:bold;
   
@@ -123,7 +123,7 @@ position: relative;
 .div7{
 
 	position: relative;
-  left: 330px;
+  margin-left: 330px;
   top: -1405px;
    font-weight:bold; 
 	
@@ -131,7 +131,7 @@ position: relative;
 .div8{
 
 	position: relative;
-  left: 580px;
+  margin-left: 580px;
   top: -1710px;
   font-weight:bold; 
 	
@@ -139,7 +139,7 @@ position: relative;
 .div9{
 	
 	position: relative;
-  left: 830px;
+  margin-left: 830px;
   top: -2015px;
   font-weight:bold; 
 	
@@ -147,7 +147,7 @@ position: relative;
 .div0{
 	
 	position: relative;
-  left: 1080px;
+  margin-left: 1080px;
   top: -2320px;
   font-weight:bold; 
 	
